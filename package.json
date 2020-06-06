@@ -1,5 +1,6 @@
 {
   "name": "robofriends",
+  "homepage": "https://shail-git.github.io/Robofriends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +14,8 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "json:server": "json-server --watch db.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
