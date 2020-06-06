@@ -1,0 +1,24 @@
+@font-face {
+font-family: 'Gameplay Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Gameplay Regular'), url('Gameplay.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Riglos Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Riglos Medium'), url('Riglos.woff') format('woff');
+}
+
+h2 {
+	font-family: 'Gameplay Regular';
+	font-size: 100%;
+}
+
+p {
+	font-family: 'Riglos Medium';
+	font-size: 105%;
+	color: rgb(0, 115, 92);
+}

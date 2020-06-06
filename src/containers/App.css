@@ -1,0 +1,12 @@
+@font-face {
+font-family: 'Monoton Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Monoton Regular'), url('Monoton-Regular.woff') format('woff');
+}
+
+h1 {
+	font-family: 'Monoton Regular';
+	font-size: 150%;
+ 	color: rgb(0,190,118);
+}
